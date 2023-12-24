@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.error {
+    color: red;
+}
+
+#fileSection, #optionsSection, #displayHandlingSection {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#displayTable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#displayTable th, #displayTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+#displayTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#displayTable tbody td {
+    text-transform: capitalize; 
+}
+#displayTable thead select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#displayTable tbody tr:hover {
+    background-color: #f5f5f5;
+}
